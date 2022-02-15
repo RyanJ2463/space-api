@@ -1,0 +1,48 @@
+/*
+  Author: Ryan Jacobell
+  Styling for a space website
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color:slategray;
+    padding-bottom: 10px;
+  }
+  /* styling the body */
+  #bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .title {
+    text-align: center; /* center title on top of page*/
+  }
+
+  #title {
+    text-align: center; /*title below picture*/
+    font-weight: 700;
+    font-size: large;
+    color: black;
+  }
+  #ale{
+    font-size: 18px;
+    padding: 5px 15px 0px 15px;
+    margin: 2px; /*spaced the ale*/
+  }
+  #title,
+  #date,
+  #exp{ 
+    margin: 2px; 
+    padding: 5px 15px 5px 15px; 
+  } /* spacing the title date exp*/
+
+  button, a{
+      border : 0px;
+      background-color:rgb(75, 72, 241);
+      color:white;
+      padding:10px 12px 10px 12px;
+      text-decoration: none;
+  } /* styling the button to download*/ 
